@@ -1,10 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 4.5%;
 }
 
-body {
-  padding-top: 20px;
+html{
+  scroll-behavior: smooth;;
 }
 
 .App-logo {
@@ -18,22 +22,20 @@ body {
   }
 }
 
-
 .App-header {
-  background-color: #282c34;
-  min-height: 1vh;
+  background-color: #333333;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 2vmin);
   color: white;
 }
 header {
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
 }
 .App-link {
   color: #61dafb;
@@ -72,26 +74,42 @@ li a:hover {
   background-color: #111;
 }
 
+h1 {
+  font-size: 80px;
+  color: rgb(99, 182, 255);
+}
 
 h3 {
  margin-bottom: 20px;
  margin-top:5%;
+ font-size: 80px;
+ color: rgb(255, 255, 255);
+}
+
+p {
+  padding-top: 30px;
 }
 
 .image{
   vertical-align: middle;
   display: flex;
   float: left;
+  
 }
 
 .video{
-  align-items: center;
+  align-items: flex-start;
+  display: flex;
+  float: left;
+  padding-left: 5em; 
+  padding-right: 5em; 
+  padding-top: 5%;
+  padding-bottom: 5em; 
+
 }
 
 .project-container {
   display: flex;
-  flex-direction: column;
-  column-count: 3;
   align-items: center;
   justify-content: center;
   margin: 2em;
@@ -99,15 +117,12 @@ h3 {
 
 .text {
   font-size: 20px;
-  padding-left: 200px;
   padding-top: 5%;
-  padding-right: 80px;
+  padding-right: 5em; 
+  padding-left: 5em; 
+  padding-bottom: 5em; 
+  text-align: left;
   }
 
-  h1 {
-    font-size: 50px;
-  }
 
-  h3 {
-    font-size: 40px;
-  }
+
