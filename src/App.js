@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import officevid from './assets/ov-office.mp4';
 import touristvid from './assets/ov-tourist.mp4';
