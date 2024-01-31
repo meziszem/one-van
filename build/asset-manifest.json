@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5bccc7ea.css",
+    "main.js": "/static/js/main.332780a4.js",
+    "static/js/787.253231c2.chunk.js": "/static/js/787.253231c2.chunk.js",
+    "static/media/ov-tourist.mp4": "/static/media/ov-tourist.c3eb3aa9259c837e167d.mp4",
+    "static/media/ov-office.mp4": "/static/media/ov-office.4c554090d9d270d23cfb.mp4",
+    "index.html": "/index.html",
+    "main.5bccc7ea.css.map": "/static/css/main.5bccc7ea.css.map",
+    "main.332780a4.js.map": "/static/js/main.332780a4.js.map",
+    "787.253231c2.chunk.js.map": "/static/js/787.253231c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bccc7ea.css",
+    "static/js/main.332780a4.js"
+  ]
+}
