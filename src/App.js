@@ -44,7 +44,6 @@ function App() {
          design,” Transit Oriented Development (TOD), and a relationship between the public and 
          private sectors.
          <p></p>
-         <p></p>
         <p>
         The prequel to One Vanderbilt’s story began more than 100 years ago with one of the 
         most ambitious undertakings in the history of New York City development.

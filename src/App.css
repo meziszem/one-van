@@ -133,14 +133,13 @@ h3 {
 
 p {
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .image{
   vertical-align: middle;
   display: flex;
   float: left;
-  
+  padding-bottom: 20px;
 }
 
 .video{
