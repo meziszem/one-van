@@ -6,8 +6,10 @@ function App() {
   return (
     
     <div className="App" id='home'>
-      <div class="bg-fixed bg-cover h-[600px] w-[100%] bg-[url('https://img.nmcdn.io/e1/w:1500,h:750,v:1/kpfwp/wp-content/uploads/imported-files/ov-image-hero-scaled.jpg?s=5db26a6f')]">
-      
+      <div class="bg-fixed bg-no-repeat md:bg-contain h-[500px] w-[100%] bg-[url('./assets/ov-header.JPG')]">
+      {/* <img class='' 
+         src={header} 
+         alt='one vanderbilt' /> */}
       <header className="App-header">
         <nav id='nav-bar'>
       <ul>
@@ -54,7 +56,7 @@ function App() {
 
          {/* Office */}
         <section id='office'>
-        <div class="bg-fixed bg-cover h-[400px] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/1a2ae5b005a4836a0d3a8e5d8b39176f/1943_1_000_N2265_tif/1943_1_000_N2265_large.jpg')]">
+        <div class="bg-fixed bg-cover h-[500px] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/1a2ae5b005a4836a0d3a8e5d8b39176f/1943_1_000_N2265_tif/1943_1_000_N2265_large.jpg')]">
         <div class='pt-20'>
         <h3> Office of the Future </h3>
         </div>
@@ -90,7 +92,7 @@ function App() {
         </section>
 
       <section id='tourist'>
-      <div class="bg-fixed bg-cover h-[400px] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/92bdccbddf2e3760f4ea681f770d9ad2/1943_1_000_N2260_tif/1943_1_000_N2260_large.jpg')]">
+      <div class="bg-fixed bg-cover h-[500px] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/92bdccbddf2e3760f4ea681f770d9ad2/1943_1_000_N2260_tif/1943_1_000_N2260_large.jpg')]">
       <div class='pt-20'>
       <div className='project-container '>
      

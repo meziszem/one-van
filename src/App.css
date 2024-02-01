@@ -22,6 +22,51 @@ html{
   }
 }
 
+@media screen and (max-width: 1366px) {
+  body p{
+    font-size: 20px
+  }
+  h3 {
+    font-size: 50px
+  }
+  h1 {
+    font-size: 50px
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body p{
+    font-size: 20px
+  }
+  h3 {
+    font-size: 40px
+  }
+  h1 {
+    font-size: 40px
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body p{
+    font-size: 10px
+  }
+  h3 {
+    font-size: 30px
+  }
+  h1 {
+    font-size: 30px
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body p{
+    font-size: 8px
+  }
+  h3 {
+    font-size: 20px
+  }
+}
+
 .App-header {
   background-color: #333333;
   display: flex;
@@ -88,6 +133,7 @@ h3 {
 
 p {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .image{
