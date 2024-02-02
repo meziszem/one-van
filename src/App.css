@@ -47,8 +47,8 @@ html{
 }
 
 @media screen and (max-width: 768px) {
-  body p{
-    font-size: 10px
+  body text{
+    max-width: fit-content;
   }
   h3 {
     font-size: 30px
@@ -58,12 +58,15 @@ html{
   }
 }
 
-@media screen and (max-width: 480px) {
-  body p{
-    font-size: 8px
+@media screen and (max-width: 430px) {
+  body text{
+    max-width: fit-content;
   }
   h3 {
     font-size: 20px
+  }
+  .project-container {
+    max-width: fit-content;
   }
 }
 
@@ -121,11 +124,11 @@ li a:hover {
 
 h1 {
   font-size: 80px;
-  color: rgb(99, 182, 255);
+  color: rgb(118, 118, 118);
 }
 
 h3 {
- margin-bottom: 20px;
+ margin-bottom: 10%;
  margin-top:5%;
  font-size: 80px;
  color: rgb(255, 255, 255);

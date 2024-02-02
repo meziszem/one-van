@@ -6,7 +6,7 @@ function App() {
   return (
     
     <div className="App" id='home'>
-      <div class="bg-fixed bg-no-repeat md:bg-contain h-[500px] w-[100%] bg-[url('./assets/ov-header.JPG')]">
+      <div class="bg-fixed bg-no-repeat md:bg-contain h-[100svh] w-[auto] bg-[url('./assets/ov-header.JPG')]">
       {/* <img class='' 
          src={header} 
          alt='one vanderbilt' /> */}
@@ -27,7 +27,7 @@ function App() {
 
     {/* Project Overview 100 years */}
     <div className='project-container'>
-      <div class='pt-10' id='project'>
+      <div class='pt-10 pb-10' id='project'>
         <h1> 100 Years in the Making </h1>
         <div className='image'> 
          <img class='pr-9' width={400} 
@@ -55,7 +55,7 @@ function App() {
 
          {/* Office */}
         <section id='office'>
-        <div class="bg-fixed bg-cover h-[500px] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/1a2ae5b005a4836a0d3a8e5d8b39176f/1943_1_000_N2265_tif/1943_1_000_N2265_large.jpg')]">
+        <div class="bg-fixed bg-cover h-[45svh] w-[auto] bg-[url('https://data.openasset.com/2ud9jaa/1a2ae5b005a4836a0d3a8e5d8b39176f/1943_1_000_N2265_tif/1943_1_000_N2265_large.jpg')]">
         <div class='pt-20'>
         <h3> Office of the Future </h3>
         </div>
@@ -91,7 +91,7 @@ function App() {
         </section>
 
       <section id='tourist'>
-      <div class="bg-fixed bg-cover h-[500px] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/92bdccbddf2e3760f4ea681f770d9ad2/1943_1_000_N2260_tif/1943_1_000_N2260_large.jpg')]">
+      <div class="bg-fixed bg-cover h-[50svh] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/92bdccbddf2e3760f4ea681f770d9ad2/1943_1_000_N2260_tif/1943_1_000_N2260_large.jpg')]">
       <div class='pt-20'>
       <div className='project-container '>
      
