@@ -1,15 +1,16 @@
 import './App.css';
 import officevid from './assets/ov-office.mp4';
 import touristvid from './assets/ov-tourist.mp4';
+import header from './assets/ov-header.JPG';
 
 function App() {
   return (
     
     <div className="App" id='home'>
-      <div class="bg-fixed bg-no-repeat md:bg-contain h-[100svh] w-[auto] bg-[url('./assets/ov-header.JPG')]">
-      {/* <img class='' 
-         src={header} 
-         alt='one vanderbilt' /> */}
+
+      <img class='h-auto max-w-full' 
+         src={header}
+         alt='one vanderbilt' />
       <header className="App-header">
         <nav id='nav-bar'>
       <ul>
@@ -20,8 +21,7 @@ function App() {
       </ul>
       </nav>
       </header>
-     
-      </div>
+      
       <body>
       {/* <h1>One Vanderbilt</h1> */}
 
@@ -53,20 +53,29 @@ function App() {
         </div>
         </div>
 
-         {/* Office */}
+  {/* office 2 SECTION */}
         <section id='office'>
-        <div class="bg-fixed bg-cover h-[45svh] w-[auto] bg-[url('https://data.openasset.com/2ud9jaa/1a2ae5b005a4836a0d3a8e5d8b39176f/1943_1_000_N2265_tif/1943_1_000_N2265_large.jpg')]">
-        <div class='pt-20'>
+      <div class="bg-fixed bg-cover h-[50svh] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/1a2ae5b005a4836a0d3a8e5d8b39176f/1943_1_000_N2265_tif/1943_1_000_N2265_large.jpg')]">
+      <div class='pt-20'>
+      <div className='project-container '>
+     
+   
         <h3> Office of the Future </h3>
         </div>
-        </div>
-
-        <div className='project-container '>
+      </div>
+      </div>
+      <div className='project-container '>
 
         <div className='video pr-9'> 
-       
-        
-        
+
+        <video
+        src={officevid}
+        width="400" 
+        height="400" 
+        controls="controls" 
+        autoPlay='false'
+        class='pr-9' />
+         <div className='text'>
         <p className='text'>
         Urban transformation in New York is historically rooted in commercial enterprise. 
         As Grand Central once opened a door for unparalleled economic stimulation, 
@@ -77,25 +86,19 @@ function App() {
         expected. Strategies like the East Midtown Rezoning Plan will incentivize 
         development and support a list of growing demands.
         </p>
-        <video
-        src={officevid} 
-        width="400" 
-        height="400" 
-        controls="controls" 
-        autoPlay='false'
-        class='pr-9' />
+        </div>
         </div>
         </div>
         
-
         </section>
 
+   {/* TOURIST SECTION */}
       <section id='tourist'>
       <div class="bg-fixed bg-cover h-[50svh] w-[100%] bg-[url('https://data.openasset.com/2ud9jaa/92bdccbddf2e3760f4ea681f770d9ad2/1943_1_000_N2260_tif/1943_1_000_N2260_large.jpg')]">
       <div class='pt-20'>
       <div className='project-container '>
      
-     {/* TOURIST SECTION */}
+  
         <h3> Scenes for Everyone </h3>
         </div>
       </div>
@@ -103,15 +106,15 @@ function App() {
       <div className='project-container '>
 
         <div className='video pr-9'> 
-       
+
         <video
-        src={touristvid} 
+        src={touristvid}
         width="400" 
         height="400" 
         controls="controls" 
         autoPlay='false'
         class='pr-9' />
-
+         <div className='text'>
         <p className='text'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -122,6 +125,7 @@ function App() {
         occaecat cupidatat non proident, sunt in culpa qui officia 
         deserunt mollit anim id est laborum.
         </p>
+        </div>
         </div>
         </div>
         
